@@ -8,7 +8,6 @@ body{
   width:100vw;
   height:100vh;
 
-  background-image:url('img/back.jpg');
   background-size:auto;
 }
 
@@ -16,25 +15,44 @@ body{
   width:100vw;
   height:100vh;
 
-  background-color:rgba(0,0,0,0.3);
+  background-color:rgba(255,255,123,1);
 }
-
-.header{
+.top{
   width:100vw;
-  height:25vh;
+  height:5vh;
   display:flex;
   align-items:center;
   justify-content:space-around;
 }
-
+.header{
+  width:100vw;
+  height:15vh;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+}
+.center{
+  width:100vw;
+  height:60vh;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+}
+.center2{
+  width:100vw;
+  height:40vh;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+}
 .searchBox{
   width:60vw;
   height:20vh;
-  color:white;
+  color:black;
   font-size:5vh;
   padding-left:1vw;
   background-color:rgba(0,0,0,0);
-  border:0.2vw solid white;
+  border:0.2vw solid black;
 }
 
 .content{
@@ -44,7 +62,7 @@ body{
 }
 
 .team{
-  width:50vw;
+  width:60vw;
   height:50vh;
   margin:auto;
   margin-bottom:1vh;
@@ -55,26 +73,26 @@ body{
 }
 
 .vs{
-  color:white;
+  color:;
   font-size:5vh;
 }
 
 .blue{
-  width:20vw;
+  width:25vw;
 
   border:0.5vw solid #3053FF;
   display:inline-block;
 }
 
 .purple{
-  width:20vw;
+  width:25vw;
 
   border:0.5vw solid #F230FF;
   display:inline-block;
 }
 
 .user{
-  width:15vw;
+  width:18vw;
   height:8vh;
   margin:auto;
   display:flex;;
@@ -83,58 +101,65 @@ body{
 }
 
 .userImg{
-  width:5vw;
+  width:4.5vw;
   height:7vh;
 }
 
 .userName{
-  color:white;
+  color:black;
   font-size:2vh;
+  align-items: center;
 }
 
 .kda{
-  color:white;
+  color:black;
   font-size:3vh;
 }
 
 .userData{
   width:60vw;
-  height:18vh;
+  height:25vh;
   display:flex;
   align-items:center;
   justify-content:space-between;
   margin:auto;
-  margin-top:2vh;
 }
 
 .userProfile{
-  width:25vw;
-  height:16vh;
+  width:28vw;
+  height:20vh;
 
-  border:0.2vw solid white;
+  border:0.2vw solid black;
 
   display:flex;
   align-items:center;
-  justify-content:space-around;
+  justify-content:flex-start;
 }
 
 .userDataImg{
-  width:9vw;
-  height:14vh;
+  width:12vw;
+  height:20vh;
 }
 
 .userDataName{
-  color:white;
+  margin-left: 40px;
+  color:black;
   font-size:4vh;
 }
+
 .Right{
   text-align: right;
 }
-.userContent{
-  width:30vw;
-  height:16vh;
 
-  border:0.2vw solid white;
+.Left{
+
+}
+
+.userContent{
+  width:28vw;
+  height:20vh;
+
+  border:0.2vw solid black;
 
   display:inline-block;
 }
@@ -143,5 +168,5 @@ body{
   margin-left:1vw;
   height:4vh;
   font-size:2.4vh;
-  color:white;
+  color:black;
 }
