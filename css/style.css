@@ -4,6 +4,8 @@
   overflow:hidden;
 }
 
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
 body{
   width:100vw;
   height:100vh;
@@ -11,33 +13,51 @@ body{
   background-size:auto;
 }
 
+.logo{
+  width:550px;
+  height: 200px;
+}
+
 .imgOpacity{
   width:100vw;
   height:100vh;
 
-  background-color:rgba(255,255,123,1);
+  background-color:rgba(123,192,255,1);
 }
 .top{
+  width:100vw;
+  height:20vh;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.header{
   width:100vw;
   height:5vh;
   display:flex;
   align-items:center;
+
   justify-content:space-around;
-}
-.header{
-  width:100vw;
-  height:15vh;
-  display:flex;
-  align-items:center;
-  justify-content:space-around;
+
 }
 .center{
   width:100vw;
-  height:60vh;
+  height:30vh;
   display:flex;
   align-items:center;
   justify-content:space-around;
 }
+
+.empty{
+  width:100vw;
+  height:30vh;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+}
+
 .center2{
   width:100vw;
   height:40vh;
@@ -57,15 +77,14 @@ body{
 
 .content{
   width:100vw;
-  height:75vh;
+  height:70vh;
   display:inline-block;
 }
 
 .team{
   width:60vw;
-  height:50vh;
+  height:45vh;
   margin:auto;
-  margin-bottom:1vh;
   margin-top:1vh;
   display:flex;
   align-items:center;
@@ -80,14 +99,16 @@ body{
 .blue{
   width:25vw;
 
-  border:0.5vw solid #3053FF;
+  border:0.2vw solid #000000;
+  /*border-right:0.2vw solid #0a99ff;*/
   display:inline-block;
 }
 
 .purple{
   width:25vw;
 
-  border:0.5vw solid #F230FF;
+  border:0.2vw solid #000000;
+  /*border-left:0.2vw solid #b963ed;*/
   display:inline-block;
 }
 
